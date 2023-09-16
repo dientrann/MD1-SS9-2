@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let numberX = prompt("Nhập vào số có 3 chữ số");
+
+      let a = Math.floor(numberX / 100);
+      let b = Math.floor(numberX / 10) % 10;
+      let c = numberX % 10;
+
+      document.write("Số đảo: " + c + b + a);
+    </script>
+  </body>
+</html>
